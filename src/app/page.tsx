@@ -1,4 +1,4 @@
-import { Footer, MainInfo } from '@/components';
+import { Footer, MainInfo, AppWrapper } from '@/components';
 import { About, Experience, Projects, TechStack, Certifications } from '@/components/Sections';
 import ParticlesBackground from '@/components/ParticlesBackground';
 import AnimatedSection from '@/components/AnimatedSection';
@@ -7,7 +7,7 @@ import BackToTopButton from '@/components/BackToTopButton';
 
 export default async function Home(): Promise<React.JSX.Element> {
   return (
-    <>
+    <AppWrapper>
       <ParticlesBackground />
       <ScrollProgressIndicator />
       <BackToTopButton />
@@ -32,6 +32,6 @@ export default async function Home(): Promise<React.JSX.Element> {
           </AnimatedSection>
         </div>
       </main>
-    </>
+    </AppWrapper>
   );
 }
