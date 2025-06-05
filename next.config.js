@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         source: '/github',
-        destination: 'https://github.com/dericsadrs',
+        destination: 'https://github.com/dericsanandres?tab=repositories',
         permanent: true
       },
       {
