@@ -1,8 +1,8 @@
 export const experience = [
   {
-    title: 'System Engineer',
+    title: 'DevOps Engineer',
     company: 'KMK Optometry',
-    companyUrl: '#',
+    companyUrl: 'https://boards.kmkoptometry.com',
     location: 'United States (Remote)',
     range: 'Apr. 2025 - Present',
     duties: [
@@ -19,7 +19,7 @@ export const experience = [
     company: 'Automa Solutions',
     companyUrl: 'https://automa.solutions',
     location: 'South Wales, Australia (Remote)',
-    range: 'Mar. 2024 - Present',
+    range: 'Mar. 2024 - JUN. 2025',
     duties: [
       'Architected and delivered enterprise-grade automation solutions for complex client challenges, demonstrating technical leadership in a fast-paced startup environment. Established code review standards, managed cross-functional pull requests, and optimized system performance across multiple products.',
       'Implemented comprehensive testing strategies (unit, integration, regression) and streamlined CI/CD workflows, reducing deployment issues by 40% through proactive bug identification and systematic code improvements.',

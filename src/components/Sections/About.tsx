@@ -22,10 +22,10 @@ const About = (): React.JSX.Element => {
           .
         </p> */}
         <p>
-          Currently pursuing certifications and diving deep into emerging technologies. I'm passionate about staying ahead of industry trends and building projects that solve real-world problems.
+          Currently pursuing certifications and diving deep into emerging technologies. I'm passionate about staying ahead of industry trends and building projects that solve real-world problems. My focus is now venturing into cybersecurity, exploring threat detection, incident response, and building innovative side projects that bridge the gap between development and security.
         </p>
         <p>
-          When I'm not coding, you'll find me sipping tea, diving into a good book, or playing League of Legends and Triple-A Steam games. I believe in balancing technical growth with personal interests that keep me inspired and energized.
+          When I'm not coding or working on side projects, you'll find me sipping tea, diving into a good book, or playing League of Legends and Triple-A Steam games. I believe in balancing technical growth with personal interests that keep me inspired and energized.
         </p>
       </div>
     </section>
