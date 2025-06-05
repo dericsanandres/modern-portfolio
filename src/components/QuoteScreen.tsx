@@ -159,7 +159,7 @@ const QuoteScreen: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
             }`}>
               <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-cyan-500/10 p-0.5">
                 <img 
-                  src={imageUrl} 
+                  src={imageUrl || ''} 
                   alt={currentQuote.author}
                   className="w-full h-full object-cover rounded-full"
                   onError={handleImageError}
