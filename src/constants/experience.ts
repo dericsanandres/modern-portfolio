@@ -1,5 +1,20 @@
 export const experience = [
   {
+    title: 'System Engineer',
+    company: 'KMK Optometry',
+    companyUrl: '#',
+    location: 'United States (Remote)',
+    range: 'Apr. 2025 - Present',
+    duties: [
+      'Architected and implemented enterprise-grade CI/CD pipelines using GitHub Actions and GitLab CI, automating build, test, and deployment workflows with blue/green and canary deployment strategies.',
+      'Spearheaded containerization initiatives with Docker and Kubernetes orchestration, managing cluster health, scaling operations, and maintaining 99.9% system uptime through proactive monitoring.',
+      'Implemented Infrastructure as Code using Terraform for automated environment provisioning, maintaining version-controlled configurations for staging and production deployments.',
+      'Established comprehensive monitoring ecosystem with Prometheus, Grafana, and Zabbix, implementing automated alerting systems and incident response protocols that reduced MTTR by 60%.',
+      'Hardened Ubuntu-based server infrastructure with advanced security protocols, implementing DDoS protection, intrusion detection systems, and vulnerability management pipelines using secure credential handling with HashiCorp Vault.',
+      'Led emergency incident response as primary contact for security breaches and system outages, conducting forensic analysis of DDoS attacks and maintaining detailed documentation for continuous improvement initiatives.'
+    ]
+  },
+  {
     title: 'Software Engineer',
     company: 'Automa Solutions',
     companyUrl: 'https://automa.solutions',
