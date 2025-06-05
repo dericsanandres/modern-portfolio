@@ -5,7 +5,7 @@ export const portfolioConfig = {
   // Personal Information
   personal: {
     name: 'Deric San Andres',
-    title: 'Systems Engineer',
+    title: 'System Engineer',
     description: 'I build automations, architect cloud services, maintain servers, integrate AI solutions, and deliver seamless CI/CD. Focused on continuous learning and staying ahead of the AI race.',
     email: 'dercsanandres@gmail.com',
     location: 'Manila, Philippines',
