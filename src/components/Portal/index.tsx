@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import './index.css';
@@ -38,24 +37,8 @@ const Portal: React.FC<PortalProps> = ({ closeModal }): React.JSX.Element => {
           className='max-w-[300px] flex flex-col items-center mt-12 sm:mt-4'
         >
           <p className='text-center text-sm sm:text-base md:text-xl text-backgroundSecondary mb-1 sm:mb-3 w-[150px] sm:w-[200px] md:w-full'>
-            Looking for my different portfolio? Go back in time...
+            Portfolio Loading...
           </p>
-          <a
-            href='https://legacy.zomeru.com'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='relative hover:scale-105 transition-transform h-[100px] w-[120px] sm:w-[150px] md:w-[200px] rounded-md overflow-hidden my-auto'
-            aria-label='Old Portfolio Link'
-          >
-            <Image
-              src='/assets/images/old_site.jpg'
-              alt='Old Portfolio Screenshot'
-              className='w-full h-auto object-contain'
-              fill
-              sizes='(max-width: 768px) 100vw'
-              loading='lazy'
-            />
-          </a>
         </div>
       </div>
     </div>
