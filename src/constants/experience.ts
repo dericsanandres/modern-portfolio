@@ -1,6 +1,6 @@
 export const experience = [
   {
-    title: 'DevOps Engineer',
+    title: 'System Engineer',
     company: 'KMK Optometry',
     companyUrl: 'https://boards.kmkoptometry.com',
     location: 'United States (Remote)',

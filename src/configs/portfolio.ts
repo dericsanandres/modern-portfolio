@@ -46,7 +46,7 @@ export const portfolioConfig = {
   navigation: [
     { name: 'About', url: '/#about' },
     { name: 'Technologies', url: '/#technologies' },
-    { name: 'Certifications & Credentials', url: '/#certifications' },
+    { name: 'Certifications', url: '/#certifications' },
     { name: 'Experience', url: '/#experience' },
     { name: 'Projects', url: '/#projects' }
   ],
