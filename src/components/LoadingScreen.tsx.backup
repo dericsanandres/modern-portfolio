@@ -1,0 +1,28 @@
+'use client';
+
+import React, { useEffect, useState } from 'react';
+import QuoteScreen from './QuoteScreen';
+
+interface LoadingScreenProps {
+  onComplete: () => void;
+}
+
+const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
+  const [showQuote, setShowQuote] = useState(true);
+
+  const handleQuoteComplete = () => {
+    setShowQuote(false);
+    // Small delay before completing
+    setTimeout(() => {
+      onComplete();
+    }, 100);
+  };
+
+  return (
+    <>
+      {showQuote && <QuoteScreen onComplete={handleQuoteComplete} />}
+    </>
+  );
+};
+
+export default LoadingScreen;
