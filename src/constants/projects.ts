@@ -1,13 +1,13 @@
 export const projects = [
   {
-    name: 'Paytrack',
+    name: 'Payment Tracker',
     image: 'project-paytrack.png',
-    alt: 'Paytrack enterprise payroll system',
-    info: 'Enterprise-grade payroll automation platform leveraging Google Cloud infrastructure with OAuth 2.0 authentication and Gmail API integration. Implements secure data handling and automated workflow processing for scalable employee management.',
-    techs: ['Python', 'Google Cloud', 'IAM', 'OAuth 2.0', 'Gmail API', 'Flask', 'OOP'],
+    alt: 'Payment Tracker automated email processing system',
+    info: 'Automated payment extraction system that monitors Gmail for payment notifications from Wise, PayPal, Remitly, and Bill.com, then creates organized records in Notion database. Features duplicate detection, cloud deployment via Google Cloud Functions, and comprehensive logging for financial tracking automation.',
+    techs: ['Python', 'Google Cloud', 'Gmail API', 'Notion API', 'IMAP', 'Flask', 'RegEx'],
     links: {
       demo: '#',
-      github: 'https://github.com/dericsadrs'
+      github: 'https://github.com/dericsanandres/Payment-Tracker'
     }
   },
   {
@@ -20,5 +20,5 @@ export const projects = [
       demo: '#',
       github: 'https://github.com/dericsadrs'
     }
-  },
+  }
 ];
